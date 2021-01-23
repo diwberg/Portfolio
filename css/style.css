@@ -33,6 +33,7 @@ width: 50%;
 .menu-desktop ul li{
     display: inline-block;
     margin:15px 20px;
+    font-size: 20px;
 }
 .menu-desktop ul li a{
     color: green;
