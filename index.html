@@ -5,25 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="autor" content="Diwberg">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Diwberg - Developer</title>
 </head>
 <body>
-    <div class="header">
-        
-        <div class="logo"> 
-            <a href="index.html"><h1>Diwberg</h1></a>
-        </div><!--Logo-->
-        
-        <div class="banner">
-            <div class="center"> </div><!--center-->
-        </div><!--banner-->
-        
+    <header>
         <div class="center">
+            <div class="logo"> 
+                <a href="index.html"><h2>Diwberg</h2></a>
+            </div><!--Logo-->
+            <div class="menu-desktop"> 
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div><!--Menu-Desktop-->
+            <div class="menu-mobile"> 
+                <a class="icon-menu"><i class="fas fa-bars"></i></a>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div><!--Menu-Mobile-->
 
-        </div><!--center-->
-
-    </div><!--Header-->
+            
+            
+    
+            </div><!--center-->
+    
+    </header>
+    <div class="banner">
+        <div class="center"> </div><!--center-->
+    </div><!--banner-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
+    <script>
+        var menuBar = document.querySelector('.menu-mobile a.icon-menu');
+        menuBar.addEventListener('click',(e)=>{
+            e.preventDefault();
+            let menuMobile = document.querySelector('.menu-mobile ul');
+            if(menuMobile.classList.contains('show-menu')){
+                menuMobile.classList.remove('show-menu');
+            }else{
+            menuMobile.classList.add('show-menu');}
+        })
+    </script>
 
 
 </body>
