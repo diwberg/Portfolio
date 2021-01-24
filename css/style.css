@@ -13,7 +13,7 @@ box-sizing: border-box;
     flex-wrap: wrap;
 }
 header{
-background-color: rgb(0, 19, 0);
+background-color: rgb(11, 3, 80);
 padding: 10px 0;
 }
 
@@ -21,10 +21,9 @@ padding: 10px 0;
     width: 50%;
     padding: 10px;
     margin: 0 auto;
-    color: rgb(2, 99, 2);
 }
 .logo a{
-    color: green;
+    color: rgb(74, 115, 228);
     text-decoration: none;
 }
 .menu-desktop{
@@ -36,17 +35,17 @@ width: 50%;
     font-size: 20px;
 }
 .menu-desktop ul li a{
-    color: green;
+    color: rgb(165, 165, 172);
     text-decoration: none;
 }
 .menu-mobile{display: none;text-align: right;width: 50%;}
 .menu-mobile svg{
     cursor: pointer;
-    color: green;
+    color: rgb(253, 253, 255);
     font-size: 20px;
 }
 .menu-mobile ul{
-    background-color: rgba(0, 19, 0, 0.534);
+    background-color: rgba(165, 165, 172);
     opacity: 0;
     transition: 1s;
     width: 100%;
