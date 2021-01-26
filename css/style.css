@@ -58,7 +58,7 @@ width: 50%;
     font-size: 20px;
 }
 .menu-mobile ul{
-    background-color:rgb(112, 105, 80);
+    background-color: #183153;
     opacity: 0;
     transition: 1s;
     width: 100%;
