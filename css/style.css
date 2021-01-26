@@ -64,25 +64,33 @@ width: 50%;
 }
 .menu-mobile{display: none;text-align: right;width: 50%;}
 .menu-mobile svg{
+    float: right;
+    position: relative;
+    left: 85%;
+    top: 10%;
     cursor: pointer;
     color:#463700;
-    font-size: 20px;
+    font-size: 30px;
 }
 .menu-mobile ul{
-    background-color: #183153;
+    background-color:  #183153ce;
     opacity: 0;
     transition: 1s;
     width: 100%;
     position: absolute;
     left: 0;
-    top: 70px;
+    top: 100%;
     text-align: center;
+}
+.menu-mobile ul:hover{
+        color: #ffd43b;
+        border-right: 2px solid #ffd43b;
 }
 .show-menu{
     opacity: 1 !important;
 }
 .menu-mobile ul li a{
-    color: #DFDFF5;
+    color: rgb(112, 105, 80);
     text-decoration: none;
     font-size: 20px;
     padding: 2px 0;
