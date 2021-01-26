@@ -5,13 +5,13 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Open Sans',sans-serif;
 }
-/*.center{
+.center{
     max-width: 960px;
     padding: 0 2%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-}*/
+}
 header {
     width: 100%;
     padding: 5px 2%;
@@ -37,7 +37,7 @@ float: left;
 .logo a{
     color: #ffd43b;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .menu-desktop{
@@ -46,8 +46,8 @@ width: 50%;
 }
 .menu-desktop ul{
     float: right;
-    position: relative;
-    left: 85%;
+    position: absolute;
+    left: 70%;
 }
 .menu-desktop ul li{
     display: inline-block;
@@ -65,12 +65,15 @@ width: 50%;
 .menu-mobile{display: none;text-align: right;width: 50%;}
 .menu-mobile svg{
     float: right;
-    position: relative;
+    position: absolute;
     left: 85%;
     top: 10%;
     cursor: pointer;
     color:#463700;
     font-size: 30px;
+}
+.menu-mobile svg:hover{
+    color: #ffd43b;
 }
 .menu-mobile ul{
     background-color:  #183153ce;
@@ -82,7 +85,7 @@ width: 50%;
     top: 100%;
     text-align: center;
 }
-.menu-mobile ul:hover{
+.menu-mobile ul li a:hover{
         color: #ffd43b;
         border-right: 2px solid #ffd43b;
 }
