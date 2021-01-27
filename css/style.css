@@ -135,7 +135,7 @@ width: 50%;
     border-radius: 10px;
 }
 .call-text h3{
-
+    background-color: red;
     top: 50%;
     left: 20%;
     color:#463700;
@@ -146,6 +146,7 @@ width: 50%;
     text-decoration: underline;
 }
 .btn{
+    display: inline block;
     border-radius: 20px;
     padding: 5px;
     background-color: transparent;
