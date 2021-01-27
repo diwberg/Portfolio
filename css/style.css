@@ -142,12 +142,12 @@ width: 50%;
 .call-text h3{
     background-color: red;
     color:#463700;
+    float: right;
 }
 .call-text h3:hover{
     cursor: pointer;
     color: #ffd43b;
     text-decoration: underline;
-    float: right;
 }
 .btn{
     display: inline block;
