@@ -185,7 +185,7 @@ section.difs .box-single-position {
     display: flex;
 }
 section.difs .box-single {
-    width: 33.333%;
+    width: 30%;
     padding: 30px 0;
     border: 3px solid rgb(32, 65, 110);
     border-radius: 10px;
