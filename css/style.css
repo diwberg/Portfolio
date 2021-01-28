@@ -236,7 +236,7 @@ section.conhecimentos {
     margin: 0 auto;
 }
 section.conhecimentos .container > h2 {
-    padding: 50px 0 25px 0;
+    padding: 20px 0 25px 0;
 }
 section.conhecimentos .conhecimentos-position{
     display: flex;
