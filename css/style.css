@@ -58,16 +58,21 @@ width: 50%;
 .menu-desktop ul li a{
     color: white;
     text-decoration: none;
+    border-right: 2px solid #183153ce;
+    padding-right: 2px;
 }
 .menu-desktop ul li a:hover{
     color: #ffd43b;
+    border-right: 2px solid #ffd43b;
+    padding-right: 2px;
+    
 }
 .menu-mobile{display: none;text-align: right;width: 50%;}
 .menu-mobile svg{
     float: right;
     position: absolute;
     left: 85%;
-    top: 10%;
+    top: 25%;
     cursor: pointer;
     color:white;
     font-size: 30px;
@@ -86,6 +91,14 @@ width: 50%;
     top: 100%;
     text-align: center;
 }
+.menu-mobile ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2px 0;
+    display: block;
+    border-right: 2px solid #183153ce;
+}
 .menu-mobile ul li a:hover{
         color: #ffd43b;
         border-right: 2px solid #ffd43b;
@@ -93,19 +106,12 @@ width: 50%;
 .show-menu{
     opacity: 1 !important;
 }
-.menu-mobile ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 2px 0;
-    display: block;
-}
+
 @media screen and (max-width: 790px){
     .menu-mobile{display: block;}
     /*.menu-mobile ul{display: none;}*/
     .menu-desktop{display: none;}
 }
-
 .banner{
     display: block;
     width: 100%;
@@ -151,7 +157,7 @@ width: 50%;
     border-radius: 20px;
     padding: 5px 10px;
     background-color: transparent;
-    border: 1px solid white;
+    border: 2px solid white;
     color: white ;
     font-weight: bold;
     position: relative;
@@ -160,7 +166,8 @@ width: 50%;
 .btn:hover{
     cursor: pointer;
     color: #ffd43b;
-    border: 1px solid #ffd43b;
+    border: 2px solid #ffd43b;
+    box-shadow: 1px 1px 5px lightgoldenrodyellow;
 }
 .content-btn{
     padding: 30px;
@@ -187,19 +194,19 @@ section.difs .box-single-position {
 section.difs .box-single {
     width: 30%;
     padding: 30px 0;
-    border: 3px solid rgb(32, 65, 110);
     border-radius: 10px;
     background-color: rgb(32, 65, 110);
-    transition: 0.4s;
-    margin-left: 0%;
-    margin-right: 3%;
+    transition: 0.5s;
+    margin: 2%;
+    border: 3px solid rgb(32, 65, 110);
 }
 section.difs .box-single:hover{
-    border: 2px solid #ffd43b;
+    border: 3px solid #ffd43b;
     color: #ffd43b;
+    box-shadow: 1px 1px 5px lightgoldenrodyellow;
 }
 section.difs .box-single .box-icon svg {
-    font-size: 67px;
+    font-size: 65px;
     color: #ffd43b;
 }
 section.difs .box-single h2 {
@@ -216,7 +223,7 @@ section.difs .box-single p strong {
         display: block;
     }
     section.difs .box-single{
-        width: 98%;
-        margin: 3%;
+        width: 100%;
+        margin: 2%;
     }
 }
