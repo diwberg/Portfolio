@@ -220,10 +220,16 @@ section.difs .box-single p strong {
 }
 @media screen and (max-width: 790px){
     section.difs .box-single-position{
+        width: 80%;
         display: block;
+        margin: 0 auto;
     }
     section.difs .box-single{
         width: 100%;
         margin: 2%;
+        padding: 0%;
+    }
+    section.difs{
+        background-color: red;
     }
 }
