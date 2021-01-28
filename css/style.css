@@ -158,12 +158,15 @@ width: 50%;
     color: #463700 ;
     font-weight: bold;
     position: relative;
-    left: 4%;
+    /*left: 4%;
     margin-top: 1%;
-    margin-left: 1.6%;
+    margin-left: 1.6%;*/
 }
 .btn:hover{
     cursor: pointer;
     color: #ffd43b;
     border: 2px solid #ffd43b;
+}
+.text-center a{
+    background-color: yellow;
 }
