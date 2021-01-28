@@ -224,6 +224,61 @@ section.difs .box-single p strong {
         width: 100%;
         margin: 0;
         margin-bottom: 4%;
-        
     }
+}
+section.conhecimentos {
+    text-align: center;
+    color: white;
+    padding: 0px 0px 50px 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+section.conhecimentos .container > h2 {
+    padding: 50px 0 25px 0;
+}
+section.conhecimentos .conhecimentos-position{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+section.conhecimentos .conhecimentos-single {
+    width: 30%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+section.conhecimentos .conhecimentos-single .conhecimentos-all {
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 3px solid rgb(32, 65, 110);
+    background-color: rgb(32, 65, 110);
+    transition: 0.5s;
+}
+section.conhecimentos .conhecimentos-single .conhecimentos-all:hover {
+    border: 3px solid #ffd43b;
+    box-shadow: 1px 1px 5px lightgoldenrodyellow;
+    color: #ffd43b;
+}
+section.conhecimentos .conhecimentos-single .conhecimentos-icon svg {
+    font-size: 60px;
+    color: #ffd43b;
+}
+section.conhecimentos .conhecimentos-single .conhecimentos-items {
+    padding: 0 10px;
+    align-self: center;
+}
+section.conhecimentos .conhecimentos-single .conhecimentos-items .conhecimentos-title {
+    padding: 5px 0;
+    font-size: 16px;
+}
+section.conhecimentos .conhecimentos-single .conhecimentos-items .conhecimentos-bar {
+    width: 130px;
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: 0.4s;
+}
+section.conhecimentos .conhecimentos-single .conhecimentos-items .conhecimentos-bar p {
+    padding: 0 10px;
 }
