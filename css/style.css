@@ -183,7 +183,7 @@ section.difs {
 section.difs .container > h2 {
     font-size: 29px;
     text-align: center;
-    padding: 45px 0;
+    padding: 25px 0;
 }
 section.difs .box-single-position {
     width: 100%;
@@ -220,12 +220,14 @@ section.difs .box-single p strong {
 }
 @media screen and (max-width: 790px){
     section.difs .box-single-position{
-        width: 80%;
+        width: 85%;
         display: block;
         margin: 0 auto;
     }
     section.difs .box-single{
         width: 100%;
-        margin: 4%;
+        margin: 0;
+        margin-bottom: 4%;
+        
     }
 }
