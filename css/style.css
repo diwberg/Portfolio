@@ -188,7 +188,7 @@ section.difs .container > h2 {
 section.difs .box-single-position {
     width: 100%;
     text-align: center;
-    padding: 0 3% 20px 3%;
+    /*padding: 0 3% 20px 3%;*/
     display: flex;
 }
 section.difs .box-single {
@@ -197,7 +197,7 @@ section.difs .box-single {
     border-radius: 10px;
     background-color: rgb(32, 65, 110);
     transition: 0.5s;
-    margin: 2%;
+    margin: 4%;
     border: 3px solid rgb(32, 65, 110);
 }
 section.difs .box-single:hover{
@@ -226,10 +226,6 @@ section.difs .box-single p strong {
     }
     section.difs .box-single{
         width: 100%;
-        margin: 2%;
-        padding: 0%;
-    }
-    section.difs{
-        background-color: red;
+        margin: 4%;
     }
 }
