@@ -160,7 +160,7 @@ width: 50%;
 .btn:hover{
     cursor: pointer;
     color: #ffd43b;
-    border: 2px solid #ffd43b;
+    border: 1px solid #ffd43b;
 }
 .content-btn{
     padding: 30px;
