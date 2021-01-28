@@ -61,7 +61,6 @@ width: 50%;
 }
 .menu-desktop ul li a:hover{
     color: #ffd43b;
-    border-right: 2px solid #ffd43b;
 }
 .menu-mobile{display: none;text-align: right;width: 50%;}
 .menu-mobile svg{
