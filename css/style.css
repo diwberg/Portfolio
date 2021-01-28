@@ -241,7 +241,6 @@ section.conhecimentos .container > h2 {
 section.conhecimentos .conhecimentos-position{
     display: flex;
     flex-wrap: wrap;
-
 }
 section.conhecimentos .conhecimentos-single {
     width: 30%;
@@ -249,11 +248,19 @@ section.conhecimentos .conhecimentos-single {
     display: flex;
     justify-content: center;
 }
+@media screen and (max-width: 790px){
+    section.conhecimentos .conhecimentos-position{
+        display: block;
+    }
+    section.conhecimentos .conhecimentos-single{
+        width: 100%;
+    }
+}
 section.conhecimentos .conhecimentos-single .conhecimentos-all {
     padding: 10px 15px;
     border-radius: 15px;
     border: 3px solid rgb(32, 65, 110);
-    background-color: rgb(32, 65, 110);
+    background-color: rgb(21, 54, 100);
     transition: 0.5s;
 }
 section.conhecimentos .conhecimentos-single .conhecimentos-all:hover {
