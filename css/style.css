@@ -175,6 +175,7 @@ width: 50%;
 @media screen and (max-width: 790px){
     .call-text{width: 90%;}
 }
+/*--------------------------------------------------------------------------------------------------diferenciais-----------------------------------------------------------------*/
 section.difs {
     padding-bottom: 50px;
     color: white;
@@ -229,6 +230,7 @@ section.difs .box-single p strong {
         margin-bottom: 4%;
     }
 }
+/*--------------------------------------------------------------------------------------conhecimentos--------------------------------------------------------*/
 .fundo{
     background-color:rgb(16, 38, 70);
 }
@@ -257,6 +259,9 @@ section.conhecimentos .conhecimentos-single {
     justify-content: center;
 }
 @media screen and (max-width: 790px){
+    .fundo{
+        height: 100%;
+    }
     section.conhecimentos .conhecimentos-position{
         display: block;
     }
@@ -296,4 +301,88 @@ section.conhecimentos .conhecimentos-single .conhecimentos-items .conhecimentos-
 }
 section.conhecimentos .conhecimentos-single .conhecimentos-items .conhecimentos-bar p {
     padding: 0 10px;
+}
+/*------------------------------------------------------------------------------contato------------------------------------------------------*/
+section.contato {
+    padding: 50px 2% 0 2%;
+    min-height: 719px;
+    background-color: rgb(32, 65, 110);
+}
+section.contato .contact-mail {
+    width: 100%;
+    padding: 50px 0 0 0;
+}
+section.contato p {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-weight: lighter;
+    padding: 5px 0;
+}
+section.contato p>span {
+    color: #ffd43b;
+    font-weight: bold;
+}
+
+section.contato .social {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+}
+section.contato .soc-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 3px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(16, 38, 70);
+    transition: 0.5s;
+}
+section.contato .social a {
+    text-decoration: none;
+    margin: 0 15px;
+}
+section.contato .soc-circle svg {
+    font-size: 24px;
+    color: white;
+    transition: 0.4s;
+}
+section.contato .soc-circle:hover{
+    background-color: #ffd43b;
+    border: 3px solid #ffd43b;
+    box-shadow: 1px 1px 5px lightgoldenrodyellow;
+}
+@media screen and (max-width: 300px){
+section.contato .social{
+    display: block;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: rgb(32, 65, 110);
+    padding: 15px 0;
+    text-align: center;
+}
+footer h2 {
+    font-size: 15px;
+    font-weight: lighter;
 }
