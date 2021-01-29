@@ -229,6 +229,9 @@ section.difs .box-single p strong {
         margin-bottom: 4%;
     }
 }
+.fundo{
+    background-color:rgb(16, 38, 70);
+}
 section.conhecimentos {
     text-align: center;
     color: white;
