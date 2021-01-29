@@ -361,6 +361,10 @@ section.contato .soc-circle:hover{
 section.contato .social{
     display: block;
 }
+section.contato .social a {
+    text-decoration: none;
+    margin: 0 15px;
+}
 }
 
 
