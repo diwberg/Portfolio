@@ -28,7 +28,6 @@ header {
     z-index: 999;
 }
 .container{
-    max-height: 1200px;
     margin: 0 auto;
 }
 .logo{
