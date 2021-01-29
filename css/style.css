@@ -358,20 +358,8 @@ section.contato .soc-circle:hover{
     box-shadow: 1px 1px 5px lightgoldenrodyellow;
 }
 @media screen and (max-width: 300px){
-section.contato .social{
-    display: block;
+section.contato .social{display: block;}
 }
-}
-
-
-
-
-
-
-
-
-
-
 
 
 footer {
