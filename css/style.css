@@ -231,6 +231,7 @@ section.difs .box-single p strong {
 }
 /*--------------------------------------------------------------------------------------conhecimentos--------------------------------------------------------*/
 .fundo{
+    border-radius: 10px;
     background-color:rgb(16, 38, 70);
 }
 section.conhecimentos {
