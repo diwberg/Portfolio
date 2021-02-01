@@ -418,14 +418,15 @@ section.projetos .proj-txt p {
 }
 section.projetos .proj-nav {
     position: relative;
-    top: 20px;
+    top: 10px;
+    text-align: left;
 }
 section.projetos .proj-nav svg {
     color: white;
     font-size: 35px;
     margin: 0 20px;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 section.projetos .proj-nav svg:hover {
     color: #ffd43b;
@@ -434,6 +435,27 @@ section.projetos .proj-nav svg:hover {
 .slider {
     display: none;
 }
+@media screen and (max-width: 790px){
+    section.projetos .proj-img{
+        width: 20%;
+        background-position: center;
+    }
+    section.projetos .proj-img:hover{
+        width: 30%;
+        background-position: center;
+    }
+    section.projetos .proj-txt-position{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(16, 38, 70);
+    }
+    section.projetos .proj-txt-position:hover{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(16, 38, 70);
+    }
+}
+
 /*---------------------------------------------------------------------------------------footer-----------------------------------------------------*/
 footer {
     width: 100%;
