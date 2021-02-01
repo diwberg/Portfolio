@@ -360,7 +360,80 @@ section.contato .soc-circle:hover{
 @media screen and (max-width: 300px){
 section.contato .social{display: block;}
 }
-
+/*------------------------------------------------------------------------------projetos------------------------------------------------------------------*/
+section.projetos {
+    color: white;
+    padding: 0px 0px 60px 0;
+}
+section.projetos .container {
+    padding: 0 2%;
+}
+section.projetos .container > h2 {
+    padding: 30px 0;
+    text-align: center;
+}
+section.projetos .projetos-position {
+    width: 100%;
+    display: flex;
+}
+section.projetos .proj-img {
+    width: 50%;
+    height: 400px;
+    background-image: url(../imgs/projeto01.png);
+    background-size: cover;
+    border-radius: 20px 0 0 20px;
+    filter: blur(1px);
+    filter: grayscale(50%);
+    transition: 0.4s;
+    box-shadow: 5px 0px 10px rgb(0 0 0 / 60%);
+}
+section.projetos .proj-img:hover {
+    width: 80%;
+    height: 400px;
+    box-shadow: 5px 0px 10px rgb(0 0 0 / 90%);
+    filter: blur(0px);
+    filter: grayscale(0%);
+}
+section.projetos .proj-txt-position {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    background-color: rgb(16, 38, 70);
+    border-radius: 0 20px 20px 0;
+    transition: 0.4s;
+}
+section.projetos .proj-txt-position:hover {
+    width: 80%;
+    background-color: rgb(26, 48, 80);
+}
+section.projetos .proj-txt {
+    color: #ffd43b;
+    padding: 0 20px;
+    text-align: right;
+    align-self: center;
+}
+section.projetos .proj-txt p {
+    color: white;
+    padding: 20px 0;
+}
+section.projetos .proj-nav {
+    position: relative;
+    top: 20px;
+}
+section.projetos .proj-nav svg {
+    color: white;
+    font-size: 35px;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+section.projetos .proj-nav svg:hover {
+    color: #ffd43b;
+    text-shadow: 5px 0px 20px lightgoldenrodyellow;
+}
+.slider {
+    display: none;
+}
 /*---------------------------------------------------------------------------------------footer-----------------------------------------------------*/
 footer {
     width: 100%;

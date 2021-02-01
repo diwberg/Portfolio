@@ -256,12 +256,43 @@
                     </div><!--conhecimentos all-->
                 </div><!--conhecimentos single-->
 
-
             </div><!--conhecimentos position-->
 
         </div><!--container-->
         
     </section><!--tecnologias-->
+
+    <section class="projetos">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="projetos-position">
+                <a href="https://projeto-diw-01.netlify.app/" target="_blank" class="proj-img" style="display: block;"></a><!--projeto 01-->
+
+                <div class="proj-txt-position">
+                    <div class="proj-txt">
+                        <div class="proj-desc slider" style="display: block;">
+                            <h2>Projeto 01</h2>
+                            <p>Primeiro projeto feito no curso de Webdesign/ Front-end Fundamentos ministrado pelo professor Daniel Tapias Morales. Uma landing page simples, colocando em pratica posicionamento e alinhamento dos elementos</p>
+                        </div><!--projeto descriçao-->
+                        <div class="proj-desc slider" style="display: none; background-image:url(../imgs/projeto01.png);">
+                            <h2>Projeto 02</h2>
+                            <p>Primeiro projeto feito no curso de Webdesign/ Front-end Fundamentos ministrado pelo professor Daniel Tapias Morales. Uma landing page simples, colocando em pratica posicionamento e alinhamento dos elementos</p>
+                        </div><!--projeto descriçao-->
+                        <div class="proj-nav">
+                            <i class="fas fa-chevron-left" onclick="plusSlides(-1)" aria-hidden="true"></i>
+                            <i class="fas fa-chevron-right" onclick="plusSlides(1)" aria-hidden="true"></i>
+                        </div><!--navegaçao dos projetos-->
+                    </div><!--projeto texto-->
+                </div><!--projeto texto position-->
+            </div><!--Projeto Position-->
+        </div><!--container-->
+
+
+
+
+
+
+    </section><!--projetos-->
 
 
     <footer>
@@ -272,6 +303,7 @@
         </div><!--container-->
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"></script>
+    <script src="js/slides.js"></script>
     <script>
         var menuBar = document.querySelector('.menu-mobile a.icon-menu');
         menuBar.addEventListener('click',(e)=>{
