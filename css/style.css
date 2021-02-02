@@ -79,7 +79,6 @@ width: 50%;
 .menu-mobile ul{
     background-color:  #183153ce;
     border-radius: 15px;
-    opacity: 0;
     transition: 1s;
     width: 100%;
     position: absolute;
@@ -99,14 +98,14 @@ width: 50%;
         color: #ffd43b;
         border-right: 2px solid #ffd43b;
 }
-.show-menu{
-    opacity: 1 !important;
-}
 
 @media screen and (max-width: 790px){
     .menu-mobile{display: block;}
-    /*.menu-mobile ul{display: none;}*/
+    .menu-mobile ul{display: none;}
     .menu-desktop{display: none;}
+}
+.show-menu{
+    display: block !important;
 }
 .banner{
     display: block;
@@ -159,7 +158,6 @@ width: 50%;
     font-weight: bold;
     position: relative;
     transition: 0.5s;
-
 }
 .btn:hover{
     cursor: pointer;
@@ -400,7 +398,7 @@ section.projetos .proj-txt-position {
     display: flex;
     background-color: rgb(16, 38, 70);
     border-radius: 0 20px 20px 0;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 section.projetos .proj-txt-position:hover {
     width: 80%;
@@ -409,7 +407,7 @@ section.projetos .proj-txt-position:hover {
 section.projetos .proj-txt {
     color: #ffd43b;
     padding: 0 20px;
-    text-align: right;
+    text-align: center;
     align-self: center;
 }
 section.projetos .proj-txt p {
@@ -418,7 +416,7 @@ section.projetos .proj-txt p {
 }
 section.projetos .proj-nav {
     position: relative;
-    top: 10px;
+    top: 0px;
     text-align: left;
 }
 section.projetos .proj-nav svg {
@@ -436,22 +434,40 @@ section.projetos .proj-nav svg:hover {
     display: none;
 }
 @media screen and (max-width: 790px){
-    section.projetos .proj-img{
-        width: 20%;
-        background-position: center;
+    section.projetos .projetos-position{
+        display: block;
     }
-    section.projetos .proj-img:hover{
-        width: 30%;
+    section.projetos .proj-img {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        border-radius: 20px 20px 0 0px;
+        filter: blur(1px);
+        filter: grayscale(50%);
+        transition: 0.4s;
+        box-shadow: 5px 0px 10px rgb(0 0 0 / 60%);
+        background-position: center ;
+    }
+    section.projetos .proj-img:hover {
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+        border-radius: 20px 20px 0 0px;
+        filter: blur(1px);
+        filter: grayscale(50%);
+        transition: 0.4s;
+        box-shadow: 5px 0px 10px rgb(0 0 0 / 60%);
         background-position: center;
     }
     section.projetos .proj-txt-position{
         width: 100%;
-        height: 400px;
+        height: 300px;
+        border-radius: 0 0px 20px 20px;
         background-color: rgb(16, 38, 70);
     }
     section.projetos .proj-txt-position:hover{
         width: 100%;
-        height: 400px;
+        height: 300px;
         background-color: rgb(16, 38, 70);
     }
 }

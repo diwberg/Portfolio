@@ -11,7 +11,6 @@ function plusSlides(n) {
     showSlides(slideIndex += n)
     showDesc(descIndex += n)
 }
-
 //Percorre os slides e atribui um indice a cada,
 function showSlides(n) {
     var i;
@@ -25,9 +24,7 @@ function showSlides(n) {
         slideIndex = slides.length;
     }
     slides[slideIndex - 1].style.display = "block";
-
 }
-
 //a mesma coisa
 function showDesc(n) {
     var desc = document.getElementsByClassName('proj-desc');
