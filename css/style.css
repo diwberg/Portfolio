@@ -506,7 +506,7 @@ section.projetos .proj-nav svg:hover {
     display: inline-block;
     width: 40%;
     background-color: aqua;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
 }
 .card-single {
     width: 90%;
@@ -530,10 +530,6 @@ section.projetos .proj-nav svg:hover {
     position: relative;
     display: inline-block;
     background-color: yellow;
-}
-.card-front{
-    margin-left: 25%;
-    background-color: pink;
 }
 .card-icon svg {
     padding: 5px 0;
@@ -594,14 +590,17 @@ section.projetos .proj-nav svg:hover {
     transform-style: preserve-3d;
 }
 .card-front{
-    position: absolute;
     transform: rotateY(0deg);
+    position: absolute;
     backface-visibility: hidden;
     transition: all .5s linear;
+    background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
 }
 .card-back{
-    position: absolute;
     transform: rotateY(180deg);
+    position: absolute;
     backface-visibility: hidden;
     transition: all .5s linear;
     filter: grayscale(100%);
@@ -611,12 +610,6 @@ section.projetos .proj-nav svg:hover {
 }
 .flip:hover .card-back{
     transform: rotateY(0deg);
-}
-.flip:hover .card-front{
-    z-index: 0;    
-}
-.flip:hover .card-back{
-    z-index: 1;    
 }
 .card-back h2{
     background-color: black;
