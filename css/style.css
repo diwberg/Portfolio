@@ -497,123 +497,35 @@ section.projetos .proj-nav svg:hover {
     filter: grayscale(0%);
     border: 2px solid lightgoldenrodyellow;
 }
-.cards {
-    text-align: center;
-    color: white;
-    padding: 0px 0px 50px 0;
-}
-.cards-position{
-    display: inline-block;
-    width: 40%;
-    background-color: aqua;
-    flex-wrap: wrap;
-}
-.card-single {
-    width: 90%;
-    height: auto;
-    padding: 20px 0;
-    margin: auto;
-    justify-content: center;
-    background-color: purple;
-    position: relative;
-    display: inline-block;
-}
-.card-all {
+.sobre{
     width: 100%;
-    height: 400px;
-    padding: 10px 15px;
-    border-radius: 15px;
+    height: auto;
+    margin: 20px auto;
+    background-color: rgb(26, 48, 80);
+    border-radius: 10px;
     border: 3px solid rgb(32, 65, 110);
-    background-color: rgb(32, 65, 110);
-    transition: 0.5s;
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
-    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
-.card-icon svg {
-    padding: 5px 0;
-    font-size: 160px;
-    color: #ffd43b;
-    background-color: red;
-    
-}
-.card-items {
-    padding: 0 10px;
-    align-self: center;
-    padding: 50px 0;
-}
-.card-bar {
-    width: 260px;
-    border-radius: 20px;
-    border: 3px solid white;
-    transition: 0.4s;
+.experiencias{
+    justify-content: center;
+    align-items: center;
     margin: auto;
+    width: 75%;
 }
-.card-bar p {
-    padding: 0 10px;
+.experiencias ul{
+    text-align: justify;
 }
-@media screen and (max-width: 1450px){
-    .card-single{
-        width: 75%;
-    }
+.formacao{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 75%;
 }
-@media screen and (max-width: 1280px){
-    .cards-position{
-        display: block;
-        width: 100%;
-        flex-wrap: wrap;
-    }
-    .card-single {
-        width: 90%;
-    }
-    .card-bar {
-        width: 290px;
-    }
-}
-@media screen and (max-width: 415px){
-    .card-single {
-        width: 80%;
-    }
-    .card-bar {
-        width: 160px;
-    }
-}
-.card-front{
-    opacity: 1 !important;
-}
-.card-back{
-   opacity: 1 !important;
-}
-.flip{
-    transition: all 0.5s;
-    transform-style: preserve-3d;
-}
-.card-front{
-    transform: rotateY(0deg);
-    position: absolute;
-    backface-visibility: hidden;
-    transition: all .5s linear;
-    background-color: pink;
-    margin-left: auto;
-    margin-right: auto;
-}
-.card-back{
-    transform: rotateY(180deg);
-    position: absolute;
-    backface-visibility: hidden;
-    transition: all .5s linear;
-    filter: grayscale(100%);
-}
-.flip:hover .card-front{
-    transform: rotateY(-180deg);
-}
-.flip:hover .card-back{
-    transform: rotateY(0deg);
-}
-.card-back h2{
-    background-color: black;
-}
+
 
 /*---------------------------------------------------------------------------------------footer-----------------------------------------------------*/
 footer {
@@ -623,7 +535,8 @@ footer {
     background-color: rgb(32, 65, 110);
     padding: 15px 0;
     text-align: center;
-   /*position: fixed;*/
+    clear: both;
+
 }
 footer h2 {
     font-size: 15px;
