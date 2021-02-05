@@ -497,6 +497,14 @@ section.projetos .proj-nav svg:hover {
     filter: grayscale(0%);
     border: 2px solid lightgoldenrodyellow;
 }
+.navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navegacao a{
+    margin-right: 20px;
+}
 .sobre{
     width: 100%;
     height: auto;
@@ -525,7 +533,6 @@ section.projetos .proj-nav svg:hover {
     margin: auto;
     width: 75%;
 }
-
 
 /*---------------------------------------------------------------------------------------footer-----------------------------------------------------*/
 footer {
