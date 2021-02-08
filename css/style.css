@@ -565,7 +565,22 @@ section.projetos .proj-nav svg:hover {
         margin-bottom: 5px;
     }
 }
-
+.soft-skills table{
+    margin: 0 auto;
+    justify-content: center;
+    text-align: justify;
+    padding: 5px;
+}
+.soft-skills th{
+    padding: 5px;
+    border: 2px solid rgb(16, 38, 70);
+}
+.soft-skills td{
+    padding: 5px;
+    margin-left: 5px;
+    border: 2px solid rgb(16, 38, 70);
+    background-color: rgb(26, 48, 80);
+}
 /*---------------------------------------------------------------------------------------footer-----------------------------------------------------*/
 footer {
     width: 100%;
