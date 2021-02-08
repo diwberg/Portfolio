@@ -501,6 +501,7 @@ section.projetos .proj-nav svg:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5px;
 }
 .navegacao a{
     margin-right: 20px;
@@ -532,6 +533,36 @@ section.projetos .proj-nav svg:hover {
     align-items: center;
     margin: auto;
     width: 75%;
+}
+@media screen and (max-width: 790px){
+    .fotos{
+        float: none;
+        width: 100%;
+        max-width: 250px;
+        display: block;
+        align-items: center;
+        background-position: center;
+        margin: 10px auto;
+    }
+    .navegacao{
+        display: block;
+        margin: 10px auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .navegacao a{
+        margin-right: 0;
+    }
+    .navegacao input{
+        margin: 5px auto;
+
+    }
+    .sobre{
+        margin: 0 auto;
+        overflow: auto;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
 }
 
 /*---------------------------------------------------------------------------------------footer-----------------------------------------------------*/
