@@ -520,6 +520,9 @@ section.projetos .proj-nav svg:hover {
     text-align: center;
     padding: 30px;
 }
+.sobre h2{
+    color: #ffd43b;
+}
 .experiencias{
     justify-content: center;
     align-items: center;
@@ -574,6 +577,7 @@ section.projetos .proj-nav svg:hover {
 .soft-skills th{
     padding: 5px;
     border: 2px solid rgb(16, 38, 70);
+    text-align: center;
 }
 .soft-skills td{
     padding: 5px;
